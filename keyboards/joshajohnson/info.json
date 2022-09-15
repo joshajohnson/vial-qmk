@@ -1,0 +1,8 @@
+{
+    "url": "https://joshajohnson.com",
+    "manufacturer": "Josh Johnson",
+    "maintainer": "Josh Johnson",
+    "usb": {
+        "vid": "0x6A6A",
+    },
+}
