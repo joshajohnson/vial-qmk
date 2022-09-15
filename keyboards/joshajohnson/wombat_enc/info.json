@@ -1,0 +1,14 @@
+{
+    "url": "https://joshajohnson.com",
+    "usb": {
+        "pid": "0x7762",
+    },
+    "layouts": {
+        "LAYOUT_encoder": {
+            "layout": [
+                {"label":"L", "x":0, "y":0},
+                {"label":"R", "x":1, "y":0}
+            ]
+        }
+    }
+}
