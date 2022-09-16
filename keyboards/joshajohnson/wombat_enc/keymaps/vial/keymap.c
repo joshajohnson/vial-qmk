@@ -23,8 +23,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      KC_L, KC_R  \
   )
 };
-// clang-format on
 
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][20] = {
+    [0] =   {   ENCODER_CCW_CW(KC_A, KC_B),   ENCODER_CCW_CW(KC_C, KC_D),   ENCODER_CCW_CW(KC_E, KC_F),   ENCODER_CCW_CW(KC_G, KC_H),   ENCODER_CCW_CW(KC_I, KC_J), \
+                ENCODER_CCW_CW(KC_K, KC_L),   ENCODER_CCW_CW(KC_M, KC_N),   ENCODER_CCW_CW(KC_O, KC_P),   ENCODER_CCW_CW(KC_Q, KC_R),   ENCODER_CCW_CW(KC_S, KC_T), \
+                ENCODER_CCW_CW(KC_U, KC_V),   ENCODER_CCW_CW(KC_W, KC_X),   ENCODER_CCW_CW(KC_Y, KC_Z),   ENCODER_CCW_CW(KC_0, KC_1),   ENCODER_CCW_CW(KC_2, KC_3), \
+                ENCODER_CCW_CW(KC_4, KC_5),   ENCODER_CCW_CW(KC_6, KC_7),   ENCODER_CCW_CW(KC_8, KC_9),   ENCODER_CCW_CW(KC_LBRC, KC_RBRC),   ENCODER_CCW_CW(KC_BSLS, KC_SLSH) \
+            }
+};
+#endif
+// clang-format on
+/*
 bool encoder_update_user(uint8_t index, bool clockwise) {
     // Left encoders are index 0 - 9
     if (index == 0) { 
@@ -153,3 +163,4 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return true;
 }
+*/
