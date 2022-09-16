@@ -22,8 +22,8 @@
 
 /* Key matrix configuration. */
 
-#define MATRIX_ROWS 2 // Rows are doubled-up.
-#define MATRIX_COLS 1
+#define MATRIX_ROWS 18
+#define MATRIX_COLS 14
 
 #define DIODE_DIRECTION ROW2COL
 

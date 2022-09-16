@@ -18,10 +18,10 @@
 #pragma once
 
 /* Key matrix configuration. */
-#define MATRIX_ROW_PINS { GP28 }
-#define MATRIX_COL_PINS { GP29 }
-#define MATRIX_ROW_PINS_RIGHT { GP0 }
-#define MATRIX_COL_PINS_RIGHT { GP1 }
+#define MATRIX_ROW_PINS         { GP21, GP21, GP22, GP23, GP24, GP26, GP27, GP28, GP29 }
+#define MATRIX_COL_PINS         { GP0, GP1, GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13}
+#define MATRIX_ROW_PINS_RIGHT   { GP21, GP21, GP22, GP23, GP24, GP26, GP27, GP28, GP29 }
+#define MATRIX_COL_PINS_RIGHT   { GP0, GP1, GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13}
 
 /* Handedness. */
 #define MASTER_LEFT

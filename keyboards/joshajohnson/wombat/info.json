@@ -4,10 +4,10 @@
         "pid": "0x7762",
     },
     "layouts": {
-        "LAYOUT_encoder": {
+        "LAYOUT_wombat": {
             "layout": [
-                {"label":"L", "x":0, "y":0},
-                {"label":"R", "x":1, "y":0}
+                {"label":"W", "x":0, "y":0},
+                {"label":"B", "x":1, "y":0}
             ]
         }
     }

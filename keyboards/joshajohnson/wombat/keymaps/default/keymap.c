@@ -19,8 +19,16 @@
 
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  [0] = LAYOUT_encoder(
-     KC_L, KC_R  \
+  [0] = LAYOUT_wombat(
+     KC_A,  KC_B,         KC_D,  KC_E,         KC_G,  KC_H,  KC_I,         KC_K,  KC_L,         KC_N,  KC_O,         KC_Q,  KC_R,         KC_T,  KC_U,  KC_V,         KC_X,   KC_Y,         KC_0,  KC_1,     \
+     KC_A,  KC_B,  KC_C,  KC_D,  KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,  KC_V,  KC_W,  KC_X,   KC_Y,  KC_Z,  KC_0,  KC_1,     \
+     KC_A,  KC_B,  KC_C,  KC_D,  KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,  KC_V,  KC_W,  KC_X,   KC_Y,  KC_Z,  KC_0,  KC_1,     \
+     KC_A,  KC_B,  KC_C,  KC_D,  KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,  KC_V,  KC_W,  KC_X,   KC_Y,  KC_Z,  KC_0,  KC_1,     \
+     KC_A,  KC_B,  KC_C,  KC_D,  KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,  KC_V,  KC_W,  KC_X,   KC_Y,  KC_Z,  KC_0,  KC_1,     \
+     KC_A,  KC_B,  KC_C,  KC_D,  KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,  KC_U,  KC_V,  KC_W,  KC_X,   KC_Y,  KC_Z,  KC_0,  KC_1,     \
+            KC_B,  KC_C,  KC_D,                       KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,  KC_S,  KC_T,                               KC_Y,  KC_Z,  KC_0,            \
+     KC_A,  KC_B,  KC_C,  KC_D,         KC_F,         KC_H,  KC_I,  KC_J,  KC_K,  KC_L,  KC_M,  KC_N,  KC_O,  KC_P,  KC_Q,  KC_R,         KC_T,                KC_W,          KC_Y,  KC_Z,  KC_0,  KC_1,     \
+            KC_B,  KC_C,         KC_E,  KC_F,  KC_G,  KC_H,  KC_I,  KC_J,                KC_M,                              KC_R,  KC_S,         KC_U,  KC_V,  KC_W,  KC_X,          KC_Z,  KC_0             \
   )
 };
 // clang-format on

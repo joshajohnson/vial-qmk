@@ -17,6 +17,6 @@ RGBLIGHT_SUPPORTED = no     # RGB underglow is supported, but not enabled by def
 RGB_MATRIX_ENABLE = no      # Enable keyboard RGB matrix functionality
 
 SPLIT_KEYBOARD = yes
-LAYOUTS = encoder
+LAYOUTS = wombat
 
 DEFAULT_FOLDER = joshajohnson/wombat/sea_picro
