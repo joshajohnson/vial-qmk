@@ -25,7 +25,7 @@
 #define MATRIX_ROWS 18
 #define MATRIX_COLS 14
 
-#define DIODE_DIRECTION ROW2COL
+#define DIODE_DIRECTION COL2ROW
 
 // Set 0 if debouncing isn't needed.
 #define DEBOUNCE 5
