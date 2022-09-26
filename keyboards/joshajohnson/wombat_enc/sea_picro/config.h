@@ -30,7 +30,7 @@
 #define ENCODERS_PAD_B_RIGHT { GP1, GP2, GP5, GP28, GP26, GP20, GP21, GP15, GP9,  GP13}
 
 /* Handedness. */
-#define MASTER_LEFT
+#define MASTER_RIGHT
 
 /* serial.c configuration (for split keyboard). */
 #define SOFT_SERIAL_PIN GP25
