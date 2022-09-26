@@ -1,7 +1,7 @@
 {
     "name": "Wombat Encoders",
     "vendorId": "0x6A6B",
-    "productId": "0x7762",
+    "productId": "0x6563",
     "lighting": "none",
     "matrix": {
         "rows": 0,

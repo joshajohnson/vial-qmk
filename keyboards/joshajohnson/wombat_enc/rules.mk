@@ -18,6 +18,7 @@ RGB_MATRIX_ENABLE = no      # Enable keyboard RGB matrix functionality
 
 SPLIT_KEYBOARD = yes
 LAYOUTS = encoder
+ENCODER_ENABLE = yes
 ENCODER_MAP_ENABLE = yes
 
 DEFAULT_FOLDER = joshajohnson/wombat/sea_picro
