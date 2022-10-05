@@ -1,0 +1,18 @@
+{
+    "keyboard_name": "Louise",
+    "manufacturer": "Josh and Riot",
+    "url": "",
+    "maintainer": "Josh and Riot",
+    "usb": {
+        "vid": "0x6A6A",
+        "pid": "0xD134",
+        "device_version": "0.0.1"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"L", "x":0, "y":0}
+            ]
+        }
+    }
+}
