@@ -81,7 +81,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
-
 // Status LED positions
 #define LED0 21
 #define LED1 20

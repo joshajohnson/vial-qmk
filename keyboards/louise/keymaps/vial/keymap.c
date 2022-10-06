@@ -135,9 +135,10 @@ bool led_update_kb(led_t led_state) {
         uint8_t capsB = led_state.caps_lock ? 32 : 0;
         rgblight_setrgb_at(capsR, capsG, capsB, LED1);
 
-        uint8_t numR = led_state.num_lock ? 32 : 0;
-        uint8_t numG = led_state.num_lock ? 32 : 0; 
-        uint8_t numB = led_state.num_lock ? 32 : 0;
+        // Numlock LED is off when Numlock on
+        uint8_t numR = led_state.num_lock ? 0 : 32;
+        uint8_t numG = led_state.num_lock ? 0 : 32; 
+        uint8_t numB = led_state.num_lock ? 0 : 32;
         rgblight_setrgb_at(numR, numG, numB, LED2);
 
     } else {
