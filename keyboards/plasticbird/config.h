@@ -37,3 +37,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_DI_PIN 10
 #define RGBLED_NUM 32
+#define RGBLIGHT_ANIMATIONS
