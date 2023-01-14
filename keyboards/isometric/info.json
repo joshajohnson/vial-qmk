@@ -1,0 +1,13 @@
+{
+  "keyboard_name": "isometric",
+  "manufacturer": "joshajohnson",
+  "url": "",
+  "maintainer": "qmk",
+  "usb": {
+    "vid": "0x6A6A",
+    "pid": "0x494D",
+    "device_version": "0.0.1"
+  },
+  "layouts": {
+  }
+}
