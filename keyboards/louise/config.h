@@ -38,6 +38,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_LAYERS
 #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
 
+#define ENCODER_MAP_ENABLE
+
 #define RGB_DI_PIN B15
 #ifdef RGB_DI_PIN
 /* 18 underglow, 4 status */
