@@ -1,11 +1,11 @@
 {
-    "keyboard_name":"Plasticbird",
-    "manufacturer":"Cafege",
+    "keyboard_name":"Ali.ce",
+    "manufacturer":"Rogers",
     "url":"Link to website",
     "maintainer":"Josh Johnson",
     "usb":{
-        "vid":"0x6A6A",
-        "pid":"0x5042",
+        "vid":"0x5242",
+        "pid":"0x414C",
         "device_version":"0.0.1"
     },
     "layouts":{

@@ -21,8 +21,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 19
 
-#define MATRIX_ROW_PINS { 1, 2, 3, 4, 5 }
-#define MATRIX_COL_PINS { 29, 27, 26, 25, 24, 23, 22, 21, 16, 17, 18, 19, 15, 20, 14, 9, 8, 7, 6 }
+#define MATRIX_ROW_PINS { 28, 29, 26, 13, 12 }
+#define MATRIX_COL_PINS { 25, 24, 23, 22, 21, 20, 27, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -35,6 +35,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Use 1000hz polling */
 #define USB_POLLING_INTERVAL_MS 1
 
-#define RGB_DI_PIN 10
-#define RGBLED_NUM 32
+#define RGB_DI_PIN GP14
+#define RGBLED_NUM 45
 #define RGBLIGHT_ANIMATIONS
