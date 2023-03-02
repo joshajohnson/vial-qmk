@@ -38,3 +38,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN GP14
 #define RGBLED_NUM 45
 #define RGBLIGHT_ANIMATIONS
+
+#define LEFT_1 45
+#define LEFT_2 44
+#define LEFT_3 43
+#define LEFT_4 42
+#define LEFT_5 41
+
+#define LEFT_6 40
+#define LEFT_7 39
+#define LEFT_8 38
+
+#define RIGHT_1 37
