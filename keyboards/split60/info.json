@@ -1,0 +1,17 @@
+{
+    "url": "https://joshajohnson.com",
+    "manufacturer": "Josh Johnson",
+    "maintainer": "Josh Johnson",
+    "usb": {
+        "vid": "0x6A6A",
+        "pid": "0x7762"
+    },
+    "layouts": {
+        "LAYOUT_split60": {
+            "layout": [
+                {"label":"S", "x":0, "y":0},
+                {"label":"6", "x":1, "y":0}
+            ]
+        }
+    }
+}
