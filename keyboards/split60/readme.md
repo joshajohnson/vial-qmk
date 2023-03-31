@@ -1,2 +1,2 @@
-make split60/sea_picro:default
+Split60 by 0ldmate from MtnKBD
 

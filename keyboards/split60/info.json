@@ -1,10 +1,10 @@
 {
-    "url": "https://joshajohnson.com",
-    "manufacturer": "Josh Johnson",
-    "maintainer": "Josh Johnson",
+    "url": "https://mtnkbd.com",
+    "manufacturer": "MtnKBD",
+    "maintainer": "MtnKBD",
     "usb": {
-        "vid": "0x6A6A",
-        "pid": "0x7762"
+        "vid": "0x4D54",
+        "pid": "0x5360"
     },
     "layouts": {
         "LAYOUT_split60": {

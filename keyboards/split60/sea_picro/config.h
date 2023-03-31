@@ -1,5 +1,5 @@
 /*
- * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
+ * Copyright 2023 Josh Johnson
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@
 
 /* Key matrix configuration. */
 #define MATRIX_ROW_PINS         { GP3, GP15, GP28, GP26, GP24 } 
-#define MATRIX_COL_PINS         { GP1, GP0, GP2, GP7, GP6, GP5, GP4, GP10 } // GP10 is a dummy to keep QMK happy
+#define MATRIX_COL_PINS         { GP1, GP0, GP2, GP7, GP6, GP5, GP4, GP10 } // GP10 is a placeholder to keep QMK happy
 #define MATRIX_ROW_PINS_RIGHT   { GP27, GP25, GP9, GP10, GP11 }
 #define MATRIX_COL_PINS_RIGHT   { GP17, GP18, GP20, GP21, GP5, GP3, GP4, GP0 }
 
@@ -36,3 +36,4 @@
 #define RGB_DI_PIN GP12
 #define RGBLED_NUM 18
 #define RGBLED_SPLIT {9, 9}
+#define RGBLIGHT_ANIMATIONS

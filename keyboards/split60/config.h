@@ -1,6 +1,5 @@
 /*
- * Copyright 2021 Quentin LEBASTARD <qlebastard@gmail.com>
- * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
+ * Copyright 2023 Josh Johnson
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,12 +19,9 @@
 
 #include "config_common.h"
 
-/* Key matrix configuration. */
-
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 8
 
 #define DIODE_DIRECTION COL2ROW
 
-// Set 0 if debouncing isn't needed.
 #define DEBOUNCE 5
