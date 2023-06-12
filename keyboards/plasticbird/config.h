@@ -35,6 +35,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Use 1000hz polling */
 #define USB_POLLING_INTERVAL_MS 1
 
-#define RGB_DI_PIN 10
+#define RGB_DI_PIN GP10
 #define RGBLED_NUM 32
 #define RGBLIGHT_ANIMATIONS
