@@ -1,0 +1,18 @@
+{
+    "keyboard_name":"FRL",
+    "manufacturer":"PEAC",
+    "url":"Link to website",
+    "maintainer":"Josh Johnson",
+    "usb":{
+        "vid":"0x6A6A",
+        "pid":"0x4652",
+        "device_version":"0.0.1"
+    },
+    "layouts":{
+        "LAYOUT_all":{
+            "layout":[
+                {"label":"","matrix":[0,0],"x":0,"y":0}
+            ]
+        }
+    }
+}
