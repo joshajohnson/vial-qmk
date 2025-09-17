@@ -10,8 +10,8 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "F5", "pin_b": "F6"},
-            {"pin_a": "B5", "pin_b": "B4"}
+            {"pin_a": "F6", "pin_b": "F5"},
+            {"pin_a": "B4", "pin_b": "B5"}
         ]
     },
     "rgblight": {
@@ -23,12 +23,12 @@
             "breathing": true,
             "rainbow_mood": true,
             "rainbow_swirl": true,
-            "snake": true,
-            "knight": true,
-            "christmas": true,
+            "snake": false,
+            "knight": false,
+            "christmas": false,
             "static_gradient": true,
-            "rgb_test": true,
-            "alternating": true,
+            "rgb_test": false,
+            "alternating": false,
             "twinkle": true
         }
     },
@@ -38,7 +38,7 @@
     "processor": "atmega32u4",
     "bootloader": "caterina",
     "features": {
-        "bootmagic": true,
+        "bootmagic": false,
         "mousekey": true,
         "extrakey": true,
         "rgblight": true,

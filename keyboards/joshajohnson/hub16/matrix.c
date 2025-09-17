@@ -84,7 +84,7 @@ void matrix_init_custom(void) {
     init_pins();
 }
 
-bool matrix_scan_custom(void) {
+bool matrix_scan_custom(matrix_row_t current_matrix[]) {
     bool changed = false;
 
     // Set row, read cols
