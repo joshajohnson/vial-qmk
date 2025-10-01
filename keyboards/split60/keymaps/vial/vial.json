@@ -6,21 +6,22 @@
         "rows": 10,
         "cols": 8
     },
+    "lighting": "qmk_rgblight",
     "layouts": {
         "labels": [
             "Split Backspace",
             "Split RShift",
             [
                 "Left Bottom Row",
-                "3U",
-                "2U 1U"
+                "1.5U 1U 1.5U 3U",
+                "1.5U 1U 1.5U 2U 1U"
             ],
             [
                 "Right Bottom Row",
-                "3U 1.5U 1U",
-                "1U 2U 1.5U 1U",
-                "1U 3U 1.5U",
-                "1U 2U 1U 1.5U"
+                "3U 1.5U 1U 1U 1.5U",
+                "1U 2U 1.5U 1U 1U 1.5U",
+                "1U 3U 1.5U 1U 1.5U",
+                "1U 2U 1U 1.5U 1U 1.5U"
             ]
           ],
         "keymap": [
