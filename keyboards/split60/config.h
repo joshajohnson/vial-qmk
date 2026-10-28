@@ -4,3 +4,6 @@
 #pragma once
 
 #define SPLIT_HAND_PIN_LOW_IS_LEFT
+
+#define SPLIT_USB_TIMEOUT 5000
+#define SPLIT_WATCHDOG_ENABLE
